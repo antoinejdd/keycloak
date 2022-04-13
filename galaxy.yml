@@ -1,7 +1,7 @@
 ---
-namespace: middleware_automation
+namespace: antoinejdd
 name: keycloak
-version: "1.0.2"
+version: "1.0.2-ajdd0.2"
 readme: README.md
 authors:
   - Romain Pelisse <rpelisse@redhat.com>
@@ -23,10 +23,10 @@ tags:
 dependencies:
   "middleware_automation.redhat_csp_download": ">=1.2.1"
   "middleware_automation.wildfly": ">=1.0.0"
-repository: https://github.com/ansible-middleware/keycloak
+repository: https://github.com/antoinejdd/keycloak
 documentation: https://ansible-middleware.github.io/keycloak
-homepage: https://github.com/ansible-middleware/keycloak
-issues: https://github.com/ansible-middleware/keycloak/issues
+homepage: https://github.com/antoinejdd/keycloak
+issues: https://github.com/antoinejdd/keycloak/issues
 build_ignore:
   - molecule
   - .github
